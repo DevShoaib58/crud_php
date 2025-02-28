@@ -1,0 +1,122 @@
+/* =================================================================== */
+/* ========== Default ========== */
+/* =================================================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body{
+}
+html, body, div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, fieldset, input, hr ,figure,marquee,img { margin:0; padding:0;  }
+fieldset {border:0}
+a {text-decoration:none;}
+a img{border:none;}
+hr{}
+p{}
+p span{}
+p a{}
+h1,h3,h5,h6 {}
+h1{}
+h1 span{}
+h2{}
+h2 span{} 
+h3{}
+h3 span{}
+h4{}
+h4 span{}
+h5{}
+h6{}
+h6 span {}
+
+li{ list-style:none;}
+ul {margin-top:0px; margin-bottom:0px;}
+
+.clearfix:after {content: ".";display: block;clear: both;visibility: hidden;line-height: 0;height: 0;}
+.clearfix {display: inline-block;}
+html[xmlns] .clearfix {display: block;}
+* html .clearfix {height: 1%;}
+
+.alignleft{}
+
+.container {margin:0px auto !important; width:100% !important; max-width:1170px; box-sizing:border-box;}
+.container:after {
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+.logo {float:left;}
+.main-menu{float:right;}
+
+.main-menu li{float:left; margin-right:30px;}
+.main-menu li a{color:#; font-size:; text-transform:uppercase}
+.main-menu li a:hover {color:#;}
+.main-menu li.current-menu-item a {color:#;}
+.main-menu li:last-child {margin-right:0px;}
+.main-menu li:last-child a {}
+
+
+/* =================================================================== */
+/* ========== Home PAGE CSS ========== */
+/* =================================================================== */
+
+/* =================================================================== */
+/* ========== INNER PAGES CSS ========== */
+/* =================================================================== */
+
+/* =================================================================== */
+/* ========== FOOTER CSS ========== */
+/* =================================================================== */
+
+
+/* =================================================================== */
+/* ========== Responsive ========== */
+/* =================================================================== */
+
+@media screen and (max-width : 1200px) {
+/* CSS FOR TABLETS ------------*/
+
+}
+
+@media screen and (max-width : 1024px) {
+/* CSS FOR Mointer ------------*/
+
+}
+@media screen and (max-width : 990px) {
+/* CSS FOR TABLETS ------------*/
+	
+}
+@media screen and (max-width : 960px) {		
+/* CSS FOR TABLETS ------------*/
+
+}
+
+
+
+@media screen and (max-width : 768px) {
+/* CSS FOR SMALL TABLETS ------------*/
+}
+@media screen and (max-width : 640px) {
+/* CSS FOR IPHONE ------------*/
+
+}
+
+
+
+
+@media screen and (max-width : 480px) {
+/* CSS FOR MOBILES ------------*/
+
+
+
+}
+@media screen and (max-width : 360px) {
+/* CSS FOR MOBILES ------------*/
+
+}
+
+@media screen and (max-width : 320px) {
+/* CSS FOR SMALL OLD MOBILES ------------*/
+
+}
