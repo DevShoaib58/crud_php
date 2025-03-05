@@ -1,8 +1,8 @@
 
-<?php include 'includes/header.php'; ?>
+
 <?php
 require_once 'includes/config.php';
 
-include 'includes/login.php';
+// include 'includes/signup.php';
+include 'pages/home.php';
 ?>
-<?php include 'includes/footer.php'; ?>

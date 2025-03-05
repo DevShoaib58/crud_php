@@ -56,6 +56,27 @@ html[xmlns] .clearfix {display: block;}
 .main-menu li:last-child {margin-right:0px;}
 .main-menu li:last-child a {}
 
+.hero-section {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+    margin-bottom: 40px;
+}
+.footer {
+    margin-top: 50px;
+    padding: 20px 0;
+    background-color: #f8f9fa;
+}
+.signup-container, .login-container {
+    max-width: 500px;
+    margin: 60px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+.login-container {
+    max-width: 400px;
+    margin: 80px auto;
+}
 
 /* =================================================================== */
 /* ========== Home PAGE CSS ========== */
